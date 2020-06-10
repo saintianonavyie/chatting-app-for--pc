@@ -1,0 +1,129 @@
+
+@media screen and ( max-width: 1180px ) {
+
+    .contact-showcase {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding:0px 10px;
+        margin: 20px 15px 20px 15px;
+        background-color: transparent;
+        border-right: 2px solid rgb(45, 17, 70);
+        overflow-y: auto;
+        box-shadow: 2px -2px #ccc 2px -2px #ccc;
+    }
+    
+    .conversation-room {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+        width: 60%;
+        border-radius: 12px;
+    }
+}
+
+@media screen and ( max-width: 835px ) {
+    .messaging-files .typing textarea {
+        margin-top: 5%;
+    }
+     .messaging-files .first-ul li {
+        padding: 6px 4px;
+    }
+    
+}
+        
+
+@media screen and ( max-width: 700px ) {
+        
+    .contact-showcase .notification-message {
+        font-size: xx-small;
+    }
+    .messaging-files .first-ul li {
+        padding: 6px 4px;
+    }
+    
+    .messaging-files .typing {
+        width: 50%;
+    }
+
+    .messaging-files .typing textarea {
+        margin: 5% 5px 0 0;
+        padding: 7px 2px 0px 3px;
+    }
+    
+    .messaging-files .second-ul .send-icon {
+        height: 20px;
+        width: 20px; 
+        font-size: x-small;
+    }
+    
+    .messaging-files .second-ul li:last-of-type {
+        height: 20px;
+        width: 20px;
+    }
+    
+}
+
+
+    
+@media screen and ( max-width: 600px ) {
+
+
+    .search-box {
+        width: 80%;
+    
+    }
+    
+    .search {
+        width: 100px;
+        font-size: 60%;
+        padding: 5px;
+        outline: none;
+        border: none;
+        background-color: rgb(47, 45, 49);
+    }
+    
+    .navigation {
+        width: 30%;
+        padding: 5px 0px;
+    }
+    
+
+    .messaging-files .first-ul {
+        width: 10%;
+    }
+
+    .messaging-files .first-ul li {
+        display: none;
+    }
+        
+    .messaging-files .first-ul li:first-of-type {
+        display: block;
+    }
+    .messaging-files .second-ul li {
+        padding: 6px 4px;
+    }
+    
+}
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
